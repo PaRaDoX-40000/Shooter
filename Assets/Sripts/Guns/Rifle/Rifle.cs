@@ -101,7 +101,7 @@ public class Rifle : Gun
 
     public void RemoveGunEnd()
     {
-        GunRemoved?.Invoke();//Gde
+        GunRemoved?.Invoke();
         gameObject.SetActive(false);
     }
 
